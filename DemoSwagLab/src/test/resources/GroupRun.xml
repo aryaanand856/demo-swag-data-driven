@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  <run>
+  <exclude name="Sanity"></exclude>
+  <include name="Smoke"></include>
+  
+  </run>
+  </groups>
+  
+    <classes>
+      <class name="testcases._3_CartPageTest"/>
+      <class name="testcases._4_ChekOutInformationPageTest"/>
+      <class name="testcases._5_ChekOutOverviewPageTest"/>
+      <class name="testcases._1_LoginPageTest"/>
+      <class name="testcases._6_CheckOutCompletePageTest"/>
+      <class name="testcases._2_InventoryPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
